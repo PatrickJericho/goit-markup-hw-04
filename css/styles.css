@@ -11,16 +11,9 @@
 
 /* Hidden headlines */
 .hidden {
-    font-size: 0%;
-    
-}
-a {
-    text-decoration: none;
+    font-size: 0%;   
 }
 
-li {
-    list-style-type: none;
-}
 
 /* Body global style */
 body {
@@ -42,11 +35,18 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 }
 /* logo style header */
 .logo > .logo-black {
     color: #000;
 }
+
+/* nav list type */
+.site-nav {
+    list-style-type: none;
+}
+
 /* Nav style default links*/
 .site-nav .nav-link {
     color: var(--title-text-color);
@@ -54,7 +54,9 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
+
 
 .site-nav .nav-link:focus,
 .site-nav .nav-link:hover {
@@ -71,6 +73,10 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.contact-list {
+    list-style-type: none;
 }
 
 .contact-list .contact-link:focus,
@@ -93,6 +99,7 @@ body {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+    text-decoration: none;
 }
 .map-link:hover,
 .map-link:focus {
@@ -101,18 +108,20 @@ body {
 
 
 /* Mail and tel styles */
-
 .footer-contact {
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+    text-decoration: none;
 }
 .footer-contact:hover,
 .footer-contact:focus {
     color: var(--accent-color);
 }
-
+.footer-link-list {
+    list-style-type: none;
+}
 /* Main style */
 
 /* Hero style */
@@ -144,6 +153,9 @@ text-transform: uppercase;
     cursor: pointer;
 }
 
+.button-list {
+    list-style-type: none;
+}
 .button.secondary {
     color: var(--title-text-color);
     background-color: var(--third-bg-color);
@@ -162,6 +174,9 @@ text-transform: uppercase;
     }
 
 /* Features  */
+.feature-list {
+    list-style-type: none;
+}
 .feature-list .feature-title {
     color: var(--title-text-color);
     font-weight: 700;
@@ -176,6 +191,9 @@ text-transform: uppercase;
 }
 
 /* Our job */
+.job-list {
+    list-style-type: none;
+}
 .our-job .job-title {
     color: var(--title-text-color);
     font-weight: 700;
@@ -185,6 +203,9 @@ text-transform: uppercase;
 }
 
 /* Our team */
+.team-list {
+    list-style-type: none;
+}
 .our-team {
     background-color: var(--third-bg-color);
 }
@@ -217,6 +238,9 @@ text-transform: uppercase;
 }
 
 /* portfolio page style */
+.project-list {
+    list-style-type: none;
+}
 .project-examples .project-title {
     color: var(--title-text-color);
         font-weight: 700;
